@@ -1,16 +1,20 @@
 {
   "name": "demoserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend server for Render deployment",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js",                  
+    "dev": "nodemon index.js",               
+    "build": "echo 'No build needed for backend server'" 
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["backend", "server", "render"],
+  "author": "Muhammadaziz Esonboyev",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.2"
+  },
+  "engines": {
+    "node": "20.x"                            
   }
 }
